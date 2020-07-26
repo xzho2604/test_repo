@@ -114,6 +114,22 @@ object id03DeployToStaging : BuildType({
         }
     }
 
+    steps {
+        script {
+            name = "ISS Deploy"
+            id = "RUNNER_7"
+            scriptContent = """
+            rmdir /A /Q \inetpub\wwwroot
+            xcopy /S /I /Y app \inetpub\wwwroot\
+            """
+        }
+        script {
+            name = "Browser Tests"
+            id = "RUNNER_8"
+            scriptContent = "npm test -- --single-run --browser %Browser% --colors false --reporters teamcity"
+        }
+    }
+
     triggers {
         vcs {
             id = "vcsTrigger"
