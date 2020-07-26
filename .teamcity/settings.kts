@@ -29,6 +29,8 @@ version = "2020.1"
 
 project {
 
+    description ="My js proeject"
+
     vcsRoot(HttpsGithubComG0t4teamcityCourseCardsGit)
 
     buildType(id03DeployToStaging)
