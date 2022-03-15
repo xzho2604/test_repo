@@ -1,0 +1,17 @@
+[
+  {
+    "id" : "f6eaa699-f70b-4a82-822b-245ce1adddf5",
+    "remoteIds" : [
+      {
+        "id" : "xzho2604",
+        "url" : "github.com",
+        "provider" : "GitHub"
+      }
+    ],
+    "name" : "Xiang Zhou(Erik)",
+    "avatarUrl" : "https://avatars.githubusercontent.com/u/20501178?u=cda1267c11c427dcb16475c576afdaef48f4bb0c&v=4",
+    "altName" : "xzho2604",
+    "email" : null,
+    "updatedAt" : "2022-03-15T21:38:22.196383+11:00"
+  }
+]
