@@ -1,0 +1,49 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="IncorrectHttpHeaderInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="customHeaders">
+        <set>
+          <option value="Subject" />
+          <option value="Reply-To" />
+          <option value="X-JSON-Schema" />
+          <option value="X-JSON-Type" />
+          <option value="X-JSON-Path" />
+          <option value="X-Java-Type" />
+          <option value="X-Region-Id" />
+          <option value="X-GraphQL-Variables" />
+          <option value="X-SSH-Private-Key" />
+          <option value="X-Temperature" />
+          <option value="X-Model" />
+          <option value="X-OPENAI-API-KEY" />
+          <option value="X-Args-0" />
+          <option value="X-Args-1" />
+          <option value="X-Args-2" />
+          <option value="X-Args-3" />
+          <option value="X-Args-4" />
+          <option value="X-Args-5" />
+        </set>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="11">
+            <item index="0" class="java.lang.String" itemvalue="opentelemetry-instrumentation-flask" />
+            <item index="1" class="java.lang.String" itemvalue="opentelemetry-distro" />
+            <item index="2" class="java.lang.String" itemvalue="opentelemetry-proto" />
+            <item index="3" class="java.lang.String" itemvalue="opentelemetry-api" />
+            <item index="4" class="java.lang.String" itemvalue="opentelemetry-sdk" />
+            <item index="5" class="java.lang.String" itemvalue="opentelemetry-propagator-b3" />
+            <item index="6" class="java.lang.String" itemvalue="opentelemetry-instrumentation" />
+            <item index="7" class="java.lang.String" itemvalue="opentelemetry-instrumentation-requests" />
+            <item index="8" class="java.lang.String" itemvalue="opentelemetry-instrumentation-wsgi" />
+            <item index="9" class="java.lang.String" itemvalue="opentelemetry-util-http" />
+            <item index="10" class="java.lang.String" itemvalue="opentelemetry-semantic-conventions" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
